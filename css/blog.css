@@ -16,48 +16,66 @@ h1,h2{
     grid-template-columns: 1fr 1fr;
 }
 
-#skills li{
-    margin: 1.5em;
-}
-
 table{
     display: flex;
     flex-flow: wrap;
-    margin: 1em;
     text-align: center;
-    vertical-align: top;
-    width: 150%;
+    width: 100%;
 }
 
 tr:hover{
     background-color: lightseagreen;
 }
 
-th,td{
-    padding: .5em 1em .5em;
-}
 
 .selected {
     background-color: aquarium;
     color: magenta;
 }
 
-/* smart phones*/
-@media screen and(max-width:767px){
-    #skills{
-        grid: unset;
+/* desktop */
+@media screen and(min-width:1024px){
+    h1,h2{
+        text-align: center;
     }
-    section{
+    
+    #blog_container, .section{
         display: flex;
         flex-flow: column;
         align-items: center;
     }
+    
+    
+    #skills{
+        list-style: none;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #skills li{
+        margin: 1.5em;
+    }
+    
     table{
-        display: unset;
-        width: 100%;
-        margin: 0;
+        display: flex;
+        flex-flow: wrap;
+        margin: 1em;
+        text-align: center;
+        vertical-align: top;
+        width: 150%;
     }
+    
+    tr:hover{
+        background-color: lightseagreen;
+    }
+    
     th,td{
-        padding: 0em 0em 0em;
+        padding: .5em 1em .5em;
     }
-}
+    
+    .selected {
+        background-color: aquarium;
+        color: magenta;
+    }
+}    
