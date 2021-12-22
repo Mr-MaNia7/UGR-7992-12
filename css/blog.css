@@ -11,9 +11,8 @@ h1,h2{
 
 #skills{
     list-style: none;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-flow: column;
 }
 
 table{
