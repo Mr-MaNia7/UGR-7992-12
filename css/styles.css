@@ -232,5 +232,11 @@ a:link{
             display: flex;
             flex-flow: column;
             align-items: center;
-    }      
+    }     
+    address{
+        margin-top: 4em;
+        display: grid;
+        text-align: center;
+        font-family: monospace!important;
+    }
 }
