@@ -75,7 +75,7 @@ button{
     }
 
     #contact_container, #contact_form,textarea, input,button, #float_container{
-        margin: 0;
-        padding: 0;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
     }
 }
