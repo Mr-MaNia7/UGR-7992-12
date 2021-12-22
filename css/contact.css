@@ -62,35 +62,18 @@ button{
 }
 
 /* smart phones*/
-@media screen and(max-width:730px){
+@media screen and(max-width:767px){
 
-    #contact_info h2{
-        margin: auto;
-    }
-    
-    #contact_container{
-        margin: auto;
-    }
-    
-    #contact_form img{
-        float: none;
-        margin: auto;
+    section{
+        margin: auto!important; 
+        float: none!important;
+        width: auto!important;
     }
     
     #float_container, #contact_info h2{
         display: flex;
         flex-flow: column;
         align-items: flex-start;
-        margin: auto;
-    }
-    
-    textarea, input,button{
-        background: #f4f9fc;
-        font-family: 'Yanone Kaffeesatz',cursive, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-        font-weight: 700;
-        padding: 0 0 0 0 ;
-        border-radius: 2em;
-        border: dashed lightseagreen;
         margin: auto;
     }
 
