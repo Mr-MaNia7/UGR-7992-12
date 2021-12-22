@@ -188,18 +188,10 @@ a:link{
 }
 
 @media screen and (max-width: 767px){
-    header nav{
-        border-bottom: outset magenta;
-        border-radius: 2em;
-        height: auto;
-        font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-    
     #header_nav {
         display: flex;
         list-style: none;
-        align-items: center;
-        justify-content: space-between;
+        justify-content: stretch;
         flex-flow: row wrap;
         margin-bottom: 1em;
         padding: .5em;
@@ -209,10 +201,14 @@ a:link{
         border-radius: 10em;
     }
 
+    section.recent{
+        width: 100%;
+    }
+
     aside article{
         flex-direction: column;
     }
-    figure{    
+    figure{ 
             display: flex;
             flex-flow: column wrap;
     }
@@ -235,6 +231,6 @@ a:link{
     }     
     address{
         margin: auto;
-        display: none!important;
+        display: flex;
     }
 }
