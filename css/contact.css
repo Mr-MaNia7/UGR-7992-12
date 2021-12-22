@@ -40,11 +40,6 @@ button:hover{
     background: lightseagreen;
 }
 
-#input_section{
-    display: flex;
-    flex-flow: row wrap; 
-}
-
 button{
     width: 5em;
 }
@@ -63,28 +58,17 @@ button{
 
 /* smart phones*/
 @media screen and(max-width:767px){
-    body{
-        margin: auto!important;
-        width: 90%!important;
+
+    #contact_container{
+        margin: auto;
+        margin-left: 0em;
     }
     section img, section{
-        float: none!important;
+        float: none;
     }
     
     #float_container, #contact_info h2{
-        display: flex;
-        flex-flow: column;
-        align-items: center;
         margin: auto;
-    }
-
-    #input_section{
-        display: flex;
-        flex-flow: column; 
-    }
-
-    .big{
-        width: 15px;
     }
     
     #contact_info_list img{

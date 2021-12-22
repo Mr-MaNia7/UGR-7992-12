@@ -4,10 +4,9 @@ h1,h2{
 
 #blog_container, .section{
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     align-items: center;
 }
-
 
 #skills{
     list-style: none;
@@ -45,19 +44,19 @@ th,td{
 /* smart phones*/
 @media screen and(max-width:767px){
     #blog_container{
-        width: 90%!important;
+        width: 80%;
         margin: auto;
     }
     #skills{
-        display: flex!important;
+        display: flex;
+        flex-flow: column wrap;
     }
     section{
-        display: flex!important;
-        flex-flow: column;
-        align-items: center;
+        display: flex;
+        flex-flow: column wrap;
     }
     table{
-        width: 90%!important;
+        width: 80%;
         margin: auto;
     }
     th,td{

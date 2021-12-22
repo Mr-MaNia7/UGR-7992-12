@@ -231,6 +231,6 @@ a:link{
     }     
     address{
         margin: auto;
-        display: flex;
+        display: none;
     }
 }
