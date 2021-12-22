@@ -25,7 +25,6 @@ table{
     text-align: center;
     vertical-align: top;
     width: 150%;
-    overflow-y: auto;
 }
 
 tr:hover{
@@ -39,4 +38,14 @@ th,td{
 .selected {
     background-color: aquarium;
     color: magenta;
+}
+
+/* smart phones*/
+@media screen and(max-width:730px){
+    table{
+        width: 100%;
+    }
+    th,td{
+        padding: 0 0 0;
+    }
 }
