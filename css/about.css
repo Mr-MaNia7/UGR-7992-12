@@ -34,12 +34,12 @@ h1, h2{
 }
 
 /* smart phones*/
-@media screen and (max-width:730px){
+@media screen and(max-width:730px){
     #about_container{
-        display: block;
+        grid: unset;
     }
 
-    #overview, #objectives, .section{
+    #overview,#objectives,.section{
         display: flex;
         flex-flow: column;
         align-items: center;
