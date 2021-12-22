@@ -27,12 +27,16 @@ section.awards{
     display: flex;
     flex-flow: column;
     align-items: center;
-    border-right: dashed springgreen;
+    border-right: dashed lightseagreen;
     border-radius: 2em;
 }
 
 figure img{
     width: 15em;
+}
+
+#selected{
+    background: lightseagreen;
 }
 
 #award_desc div{
