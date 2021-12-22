@@ -42,9 +42,10 @@ th,td{
     color: magenta;
 }
 
-/* smart phones
-@media screen and(max-width:730px){
+/* smart phones */
+@media screen and(max-width:720px){
     #skills{
+        display: flex;
         grid: unset;
     }
     section{
@@ -64,4 +65,4 @@ th,td{
     margin: 0em;
 }
 }
-*/
+
