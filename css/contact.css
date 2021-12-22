@@ -1,0 +1,63 @@
+#contact_info h2{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#contact_container{
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 10em;
+}
+
+#contact_form img{
+    float: left;
+    margin: 2em;
+}
+
+#float_container, #contact_info h2{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    padding-left: 2em;
+    margin-top: 1em;
+}
+
+textarea, input,button{
+    background: #f4f9fc;
+    font-family: 'Yanone Kaffeesatz',cursive, -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-weight: 700;
+    padding: 2em 0em 2em 1em ;
+    border-radius: 2em;
+    border: dashed lightseagreen;
+    margin: 1em;
+}
+
+textarea:hover, input:hover{
+    border: solid lightseagreen;
+}
+
+button:hover{
+    background: lightseagreen;
+}
+
+#input_section{
+    display: flex;
+    flex-flow: row wrap; 
+}
+
+button{
+    width: 5em;
+}
+
+#contact_info_list{
+    list-style: none;
+}
+
+.big{
+    width: 30px;
+}
+
+#contact_info_list img{
+    margin-right: 2em;
+}
+
