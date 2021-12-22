@@ -53,8 +53,8 @@ th,td{
         align-items: center;
     }
     table{
-        width: 100%!important;
-        margin: 0;
+        width: 90%!important;
+        margin: auto;
     }
     th,td{
         padding: 0em 0em 0em;
