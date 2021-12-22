@@ -32,3 +32,17 @@ h1, h2{
     list-style: none;
     margin: 1.5em;
 }
+
+/* smart phones*/
+@media screen and(max-width:730px){
+    #about_container{
+        display: flex;
+    }
+
+    #overview,#objectives,.section{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+} 
