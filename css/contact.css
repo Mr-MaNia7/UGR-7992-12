@@ -69,5 +69,13 @@ button{
         align-items: center;
     }
 
+    #float_container{
+        flex-direction: column;
+        align-items: center;
+    }
 
+    #contact_container, #contact_form,textarea, input,button, 
+    #float_container{
+        margin: 0;
+    }
 }
