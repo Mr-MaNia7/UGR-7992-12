@@ -21,6 +21,8 @@ h1,h2{
 }
 
 table{
+    display: flex;
+    flex-flow: wrap;
     margin: 1em;
     text-align: center;
     vertical-align: top;
