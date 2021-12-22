@@ -42,10 +42,9 @@ th,td{
     color: magenta;
 }
 
-/* smart phones */
-@media screen and(max-width:720px){
+/* smart phones*/
+@media screen and(max-width:767px){
     #skills{
-        display: flex;
         grid: unset;
     }
     section{
@@ -54,15 +53,11 @@ th,td{
         align-items: center;
     }
     table{
-        display: block;
+        display: unset;
         width: 100%;
         margin: 0;
     }
     th,td{
         padding: 0em 0em 0em;
     }
-#skills li{
-    margin: 0em;
 }
-}
-

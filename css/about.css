@@ -39,7 +39,7 @@ h1, h2{
         grid: unset;
     }
 
-    section{
+    #overview,#objectives,.section{
         display: flex;
         flex-flow: column;
         align-items: center;
