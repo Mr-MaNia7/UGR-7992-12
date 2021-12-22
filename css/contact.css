@@ -63,17 +63,18 @@ button{
 
 /* smart phones*/
 @media screen and(max-width:767px){
-
-    section{
-        margin: auto!important; 
+    body{
+        margin: auto!important;
+        width: 90%!important;
+    }
+    section img, section{
         float: none!important;
-        width: auto!important;
     }
     
     #float_container, #contact_info h2{
         display: flex;
         flex-flow: column;
-        align-items: flex-start;
+        align-items: center;
         margin: auto;
     }
 
