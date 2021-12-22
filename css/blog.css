@@ -43,9 +43,9 @@ th,td{
 /* smart phones*/
 @media screen and(max-width:730px){
     table{
-        width: 100%;
+        width: 1vw;
     }
     th,td{
-        padding: 0 0 0;
+        padding: 0em 0em 0em;
     }
 }
