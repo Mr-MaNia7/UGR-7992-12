@@ -74,4 +74,8 @@ button{
         align-items: center;
     }
 
+    #contact_container, #contact_form,textarea, input,button, 
+    #float_container{
+        margin: 0;
+    }
 }
